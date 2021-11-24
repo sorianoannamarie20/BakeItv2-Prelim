@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142414826724",
+    "project_id": "prelim-43d1d",
+    "storage_bucket": "prelim-43d1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142414826724:android:5f40182306a5c62e88b0f1",
+        "android_client_info": {
+          "package_name": "com.example.prelim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142414826724-tp56t6o9obm07vvlhqhscpjn08f3p1cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuSotLUNRRENteaJB48k3OSqcExS7Nmkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142414826724-tp56t6o9obm07vvlhqhscpjn08f3p1cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

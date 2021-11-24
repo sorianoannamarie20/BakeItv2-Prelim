@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream_brulee"
+    tools:context=".Upload">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:id="@+id/relative">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="back"
+            android:background="@color/cream_brulee"
+            android:src="@drawable/ic_baseline_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="105dp"
+            android:text="Upload a Recipe"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button"
+            android:text="UPLOAD"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="315dp"
+            android:onClick="upload"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/TvAP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add a recipe photo"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/custom_button"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="CHOOSE A PHOTO"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:onClick="choosePhoto"/>
+            <TextView
+                android:id="@+id/TvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of your Recipe"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/EtName"
+                android:background="@drawable/shapewhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:hint="e.g Tiramisu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/TvIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/EtIngredients"
+                android:background="@drawable/shapewhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:hint="1 cup flavore"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/TvInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instructions"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:id="@+id/EtInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapewhite"
+                android:hint="Step 1."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
